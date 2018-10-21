@@ -1,0 +1,41 @@
+*{
+  font-family: serif;
+}
+
+body{
+    background-color:dimgray;
+    
+}
+
+.alinharImg{
+    text-align: center;
+    width: 800px;
+    margin: 5px auto;  
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    margin: 0 auto; 
+    padding: 3px 10px;
+    background-color:bisque; 
+    
+}
+
+p.resposta{
+    color:red;
+    font-size: 20px;   
+}
+
+p.nota{
+    background-color:aquamarine;
+    font-size: 20px;
+}
+
+.responder{
+    padding: 0px 15px;
+}

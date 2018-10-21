@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Web - Prática </title>
+    <link rel="stylesheet" href="WebPraticaCSS/WebPratica.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="alinharImg">
+                <img src="imagem/banner-Desenvolvimento-Web.png"/>
+            </div>
+    
+        </header>
+
+        <main>
+            <h1>Perguntas:</h1>
+
+            <h3>a) É possível sobrepor à aparência (estilo) definida em regras CSS anteriores,
+                mais genéricas, por regras mais específicas? Se possível, essa técnica tem
+                nome? Exemplifique</h3>
+            <div class="responder">
+                <p class="resposta"> 
+                    Sim, é possível sobrepor o estilo, definido por regras CSS genérica, para as mais específicas. E essa técnica é dada pelo nome <b>"Override ou Sobreposição"</b> que neste caso, a regra que foi sobreescrita, terá mais potencial, ou seja, será a técnica executada num código html.
+                </p>
+      
+            </div>
+        
+
+            <h3>b) Caso definíssemos uma regra CSS mais geral para cabeçalhos de nível 1, 2 e
+                3, seguida de outra somente para o nível 1, como seria o comportamento do
+                navegador? Descreva os vários cenários possíveis e o comportamento do
+                navegador em cada uma delas</h3>
+            <div class="responder">
+                <p class="resposta">
+                    Quando define uma regra geral para os níveis 1, 2 e 3, o comportamento do navegador será obedecer o que lhe foi pedido, ou seja, <b>ele aplicará a mesma regra a todos os níveis.</b>
+                    Mas, quando <b>além do que foi definido para os três níveis</b> estiver uma outra definição apenas para o nível 1, significa dizer que <b>o navegador, irá aplicar ao nível 1 essa última regra.
+                        E aos níveis 2 e 3 continuarão as mesmas regras de "antes" (a primeira regra aplicada).</p>
+
+                <p class="resposta"><b> Veja as imagens a seguir:</b></p>
+                <p class="resposta"><b><i>Código Css: Regra aplicada aos 3 níveis de cabeçalho.</i></b></p>
+                <img src="Imagem/imagemTeste1;.png" />
+
+                <p class="resposta"><b><i>Resultado:</i></b></p>
+                <img src="Imagem/imagemTeste3Resultado;.png" />
+
+                <p class="resposta"><b><i>Código Css: Regra "seguida" aplicada apenas a 1 nível de cabeçalho. </i></b></p>
+                <img src="Imagem/imagemTeste4;.png" />
+
+                <p class="resposta"><b><i>Resultado:</i></b></p>
+                <img src="Imagem/imagemTeste5Resultado.2;.png" />
+            </div>
+            <p class="nota"> <b>Note que:</b> Houve alterações, onde no primeiro resultado mostra a regra aplicada aos níveis. Ao contrário do segundo resultado.</p>
+
+
+            <h3>c) É sempre interessante otimizar o código CSS? Cite algumas vantagens</h3>
+
+            <div class="responder">
+                <p class="resposta">
+                    Sim, pois otimizando um código html, deixará o código mais "limpo", ou seja, o código não ficará muito extenso. E também, ao deixar o código mais "limpo", estará economizando armazenamento.
+                </p>
+            </div>
+
+            <h3>d) Defina herança em CSS. Utilize, também, imagens para ilustrar tais definições.</h3>
+
+            <div class="responder">
+                <p class="resposta">
+                    Herança no css, é como uma herança numa classe java. A diferença é que, na classe Java são herdados métodos
+                    e atributos, e no CSS é herdado as "regras" de um "pai".
+                    Um exemplo:
+                    Colocar regras no body: Tudo o que for adicionado no Body (CSS), todo o conteúdo que tiver dentro do body (html), vai herdar essa regra.
+                </p>
+
+
+                <p class="resposta"><b>Veja as imagens a seguir:</b></p>
+
+                <p class="resposta"><b><i>Código html: Mostrando o que está dentro do Body: </i></b></p>
+
+                <img src="Imagem/imagemTeste6;.png" />
+
+                <p class="resposta"><b><i>Código CSS: Adicionando no Body, uma cor: </i></b></p>
+
+                <img src="Imagem/imagemTeste7;.png" />
+
+                <p class="resposta"><b><i> Resultado:</i></b></p>
+
+                <img src="Imagem/imagemTeste8Resultado;.png" />
+            </div>
+
+            <h3>e) Podemos sobrescrever características herdadas todas as vezes que
+                desejarmos deixá-la mais específica?</h3>
+            <div class="responder">
+                <p class="resposta">
+                    Sim, fazendo um override específico para o determinado elemento que deseja aplicar a regra, desejada.   
+                </p>
+            
+            
+            </div>
+
+        </main>
+
+        <footer>
+            <!-- Rodapé-->
+        </footer>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
